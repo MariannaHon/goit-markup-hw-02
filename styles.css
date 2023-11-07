@@ -1,12 +1,14 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--NAVY-BLUE, #2E2F42);
+    background-color: var(--WHITE, #FFF);
 }
 .logo-part {
     color: var(--NAVY-BLUE, #2E2F42); 
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.166;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -15,7 +17,7 @@ body {
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.166;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -29,10 +31,9 @@ body {
     margin-right: 76px;
 }
 .button-nav {
-    color: var(--NAVY-BLUE, #2E2F42);
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
     padding-top: 28px;
     padding-bottom: 25px;
@@ -40,12 +41,33 @@ body {
     margin-bottom: 0;
     margin-right: 40px;
 }
+.button-nav:hover {
+    color: var(--OCEAN, #404BBF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.button-nav:active {
+    color: var(--OCEAN, #404BBF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.button-nav:focus {
+    color: var(--OCEAN, #404BBF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
 .contacts {
     color: var(--SLATE, #434455);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
     padding-top: 28px;
     padding-bottom: 25.5px;
@@ -53,6 +75,20 @@ body {
     margin-bottom: 0;
     margin-left: 40px;
     margin-right: 40px; 
+}
+.contacts:hover {
+    color: var(--OCEAN, #404BBF);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.contacts:focus {
+    color: var(--OCEAN, #404BBF);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 .heading {
     display: flex;
@@ -69,4 +105,119 @@ ul, ol {
 }
 a {
     text-decoration: none;
+}
+.title {
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.071;
+    letter-spacing: 1.12px;
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+.button {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--WHITE, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    cursor: pointer;
+}
+.button:hover {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--OCEAN, #404BBF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--WHITE, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    cursor: pointer;
+}
+.button:focus {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--OCEAN, #404BBF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--WHITE, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    cursor: pointer;
+}
+
+.hiding {
+    color:#FFF;
+}
+.benefits .small-title {
+    width: 264px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+.team .small-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+.portfolio .small-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+.benefits .paragraf {
+    width: 264px;
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.team .paragraf {
+    text-align: center;
+    width: 264px;
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.portfolio .paragraf {
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.title-middle {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.111;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.bottom .paragraf {
+    width: 264px;
+    color: var(--CLOUD, #F4F4FD);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    background: var(--NAVY-BLUE, #2E2F42);
 }
