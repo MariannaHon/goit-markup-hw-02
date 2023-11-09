@@ -1,25 +1,10 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--NAVY-BLUE, #2E2F42);
+    color:#434455;
     background-color: var(--WHITE, #FFF);
 }
-.logo-part {
+.logo .black {
     color: var(--NAVY-BLUE, #2E2F42); 
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.166;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-}
-.logo-part-second {
-    color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.166;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
 }
 .logo {
     display: flex;
@@ -29,38 +14,46 @@ body {
     padding-top: 25px;
     padding-bottom: 25px;
     margin-right: 76px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--IRIS, #4D5AE5);
 }
 .button-nav {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     padding-top: 28px;
     padding-bottom: 25px;
     margin-top: 0;
     margin-bottom: 0;
     margin-right: 40px;
+    color: #2e2f42;
 }
 .button-nav:hover {
     color: var(--OCEAN, #404BBF);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 .button-nav:active {
     color: var(--OCEAN, #404BBF);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 .button-nav:focus {
     color: var(--OCEAN, #404BBF);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 .contacts {
     color: var(--SLATE, #434455);
@@ -68,7 +61,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     padding-top: 28px;
     padding-bottom: 25.5px;
     margin-top: 0;
@@ -81,14 +74,14 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 .contacts:focus {
     color: var(--OCEAN, #404BBF);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 .heading {
     display: flex;
@@ -111,9 +104,8 @@ a {
     text-align: center;
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.071;
+    line-height: 1.07;
     letter-spacing: 1.12px;
-    background: var(--NAVY-BLUE, #2E2F42);
 }
 .button {
     display: inline-flex;
@@ -209,7 +201,7 @@ a {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.111;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -220,4 +212,13 @@ a {
     line-height: 1.5;
     letter-spacing: 0.32px;
     background: var(--NAVY-BLUE, #2E2F42);
+}
+.block {
+    background-color: #2e2f42;
+}
+.block-second {
+    background-color: #F4F4FD;
+}
+.item {
+    background-color: #FFFFFF;
 }
