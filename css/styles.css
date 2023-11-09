@@ -84,6 +84,7 @@ a {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
+    text-align: center;
 }
 .button {
     background: var(--IRIS, #4D5AE5);
